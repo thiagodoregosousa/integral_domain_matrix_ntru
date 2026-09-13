@@ -51,7 +51,7 @@ algorithm over K instead).
 | `random_matrix_with_fixed_line()` / `random_matrix_with_fixed_column()` | Hand-crafted N=3 matrices used to probe decryption-failure edge cases |
 | `random_matrix_F_with_N_3_d_5_fixed_line()` | Search for an N=3, d=5 private key built from `random_matrix_with_fixed_line`, used to test counterexamples to the original theorem |
 
-## Package layout
+## Repository layout
 
 - `integral_domain_functions.sage` — all functions: modular arithmetic over K = Q(√-3), NTRU-distributed random matrix generators, the two key-generation variants, encryption/decryption, the extended Euclidean algorithm over K, the decryption-failure parameter search (`q_min_value`), and the hardcoded N=3 matrices used to look for theorem counterexamples.
 
