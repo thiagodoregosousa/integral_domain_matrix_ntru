@@ -60,3 +60,5 @@ algorithm over K instead).
 [1] 2023, IEEE, ICoCICs, Indah E. Wijayanti, Uha Isnaini, Anny Kartika Sari. Matrix NTRU Cryptosystem over Integral Domain from Published at IEEE - ICoCICs in 2023.
 
 [2] von zur Gathen, J., & Gerhard, J. (2013). Modern Computer Algebra (3rd ed.). Cambridge University Press.
+
+[3] do Rêgo Sousa, T., & Souza Neto, T. (2025). Improved Decryption Bounds and Key Generation for Matrix NTRU over Integral Domain. *SBSeg 2025*, 499–512. <doi:10.5753/sbseg.2025.9721> — corrects the decryption-failure theorem from [1] (the counterexamples in this repo) and speeds up key generation.
